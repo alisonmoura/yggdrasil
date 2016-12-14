@@ -1,0 +1,24 @@
+{
+  "name": "yggdrasil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonmoura/yggdrasil.git"
+  },
+  "author": "Alison Moura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonmoura/yggdrasil/issues"
+  },
+  "homepage": "https://github.com/alisonmoura/yggdrasil#readme",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.9.1"
+  }
+}
