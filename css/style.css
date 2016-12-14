@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+a{
+    font-style: normal;
+}
+.nav-menu{
+    /*position: fixed;*/
+    width: 100%;
+    background-color: green;
+    height: 60px;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    /*border: 1px solid red;*/
+}
+.nav-menu > .drawer-toggle-mneu{
+    margin: 10px;
+    cursor: pointer;
+}
+.nav-menu > .drawer-toggle-mneu > i{
+    font-size: 30pt;
+}
+.nav-menu > ul{
+    display: flex;
+    margin-top: 38px;
+}
+.nav-menu > ul > li{
+    -webkit-transition: border .3s ease-in-out 0s;
+    -moz-transition: border .3s ease-in-out 0s;
+    transition: border .3s ease-in-out 0s;
+    margin-right: 10px;
+    list-style: none;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+    font-size: 15pt
+}
+.nav-menu > ul > li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.nav-menu > img{
+    margin: 0px 0px 0px 20px;
+    height: 100%;
+}
+.nav-menu > .right{
+    float: right;
+}
+.extended-nav{
+    background-color: green;
+    height: 300px; 
+}
+#back-drop{
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,.3);
+    height: 100%;
+    width: 100%;
+}
+.drawer-menu{
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    left: -25%;
+}
+.drawer-menu.open{
+    left: 0%;
+}
+.drawer-menu li{
+    color: black;
+    width: 100%;
+    padding: 20px 20px 20px 60px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.drawer-menu ul{
+    height: 100%;
+    overflow-y: scroll;
+}
+.drawer-menu li i{
+    margin-right: 20px;
+}
+.drawer-menu li:hover{
+    background-color: rgba(0,0,0,.1);
+}
+.drawer-menu-header{
+    height: 60px;
+    background-color: green;
+}
+.drawer-menu-header > .drawer-close > i{
+    cursor: pointer;
+    color: white;
+    font-size: 30pt;
+    line-height: 60px;
+    margin-left: 20px;
+}
